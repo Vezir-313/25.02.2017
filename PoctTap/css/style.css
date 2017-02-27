@@ -1,0 +1,354 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: Segoe UI;
+}
+/*   start    welcome    */
+#welcome{
+	width: 100%;
+	height: 670px;
+	background-color: #f25222;
+	background-image:url(../image/map.png);
+	background-repeat: no-repeat;
+	position: relative;
+	top: -17px;
+
+}
+
+#welcome .header{
+	position: relative;
+	top: 47px;
+}
+
+#welcome .header .logo{
+	position: relative;
+	border-right: 1px solid white;
+}
+
+#welcome .header .call{
+	position: relative;
+	left: 33px;
+}
+
+#welcome .header .call img{
+	position: relative;
+	top: 3px;
+	display: inline;
+}
+
+#welcome .header .call h3{
+	position: relative;
+	left: 5px;
+	display: inline;
+}
+
+#welcome .header .lang{
+	position: relative;
+	top: 3px;
+	left: -55px;	
+}
+
+#welcome .header .lang span{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+
+
+#welcome .header .nav div p{
+	text-transform: uppercase;
+	float: left;
+   
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: right;
+    
+    	
+}
+
+#welcome .header .nav div h3{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#welcome .header .nav div a{
+    text-decoration: none;
+    background-color: #fbc222;
+    padding: 18px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 5px;
+}
+
+#welcome .header .nav div a:hover{
+    
+}
+#welcome .header .nav div a img{
+	vertical-align: middle;
+}
+
+#welcome .header .nav .col2{
+    margin-right: 65px;
+}
+
+#welcome .header .nav .col3{
+    margin-right: 15px;
+}
+
+
+
+
+#welcome .info{
+	margin-top: 130px;
+}
+
+#welcome .info .service{
+	margin-top: 20px;
+}
+
+#welcome .info .service p{
+	font-size: 18px;
+	color: white;
+	font-weight: 100;
+}
+
+#welcome .info .service p i{
+	color: #fbc222;
+	margin-right: 5px;
+}
+
+
+#welcome .info .axtar{
+	height: 230px;
+	background-color: white;
+	padding: 30px 40px;
+}
+
+#welcome .info .axtar h2{
+	font-size: 16px;
+    color: black;
+    text-align: center;
+
+}
+
+
+#welcome .info .axtar p{
+	font-size: 12px;
+    margin-left: 5px;
+    float: right;   
+}
+
+#welcome .info .axtar p i{
+	font-size: 14px;
+	color: #fbc222;
+	margin-right:  5px;
+	float: left;
+}
+
+#welcome .info .axtar select{
+	width: 100%;
+	height: 30px; 
+	border-right: none;
+	border-left: none;
+	border-top: none;
+}
+
+#welcome .info .axtar a{
+	position: relative;
+	top: 50px;
+	text-decoration: none;
+	background-color:  #fbc222;
+	color: black;
+	font-size: 18px;
+	font-weight: bold; 
+	padding: 20px 115px;
+	border-radius: 5px;
+}	
+
+/*    end welcome    */
+
+
+
+/*    start senedler    */
+#senedler{
+	position: relative;
+	top: -17px;
+	background-color: #f5f5f5;
+	height: 630px;
+	
+}
+
+#senedler .wrapper h1{
+	position: relative;
+	top: 55px;
+	text-align: center;
+	font-weight: 600;
+	color: black;
+}
+#senedler .wrapper .row-sb{
+	margin-top: 100px;
+}
+
+#senedler .wrapper .row-sb:last-child{
+	margin-top: 80px;
+}
+
+#senedler .wrapper .row-sb div{
+	border-radius: 5px;
+}
+#senedler .wrapper .row-sb .col3{
+	width: calc((100% / 12)*3 - 20px) !important;
+	background-color: #FFFFFF;
+	height: 130px;
+}
+
+#senedler .wrapper .row-sb img{
+	position: relative;
+	top: 50px;
+	left: 20px;
+}
+
+#senedler .wrapper .row-sb h2{
+	position: relative;
+	top: 30px;
+	left: 35px;
+}
+
+#senedler .wrapper .row-sb p{
+	position: relative;
+	font-size: 14px;
+	top: 10px;
+	left: 80px;
+}
+
+#senedler .wrapper a{
+	font-weight: bold;
+	padding: 10px 50px;
+	text-decoration: none;
+    font-size: 14px;
+    color: #1a1919;
+    text-align: center;
+    border: 1px solid #f25222;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    left: 500px;
+}
+
+#senedler .wrapper a:hover{
+	background-color: #f25222;
+	color: white;
+
+
+}	
+
+
+
+
+
+/*    end senedler    */
+
+
+/*    start  feature     */
+
+#feature {
+
+
+}
+
+#feature .row-sb .col4 {
+	width: calc((100% / 12)*4 - 10px);
+}
+
+#feature .wrapper .row-sb .col4 img{
+	position: relative;
+	left: 120px;
+}
+#feature .wrapper .row-sb .col4 p{
+	font-size: 14px;
+    text-align: center;
+    color: #1a1919;
+    font-weight: bold;
+}
+
+/*    end  feature     */
+
+/*   start   footer   */
+#footer{
+	margin-top: 50px;
+}
+
+#footer .wrapper{
+	border-top: 1px solid #cecece;
+}
+
+#footer .logo{
+	margin-top: 50px;
+}
+#footer .logo img:last-child{
+	position: relative;
+	top: -20px;
+	margin-left: 20px;
+}
+
+#footer .menu{
+	position: relative;
+	right: 0;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+#footer .menu .callcen img {
+	float: left;
+	vertical-align: middle;
+	position: relative;
+	top: 5px;
+}
+
+#footer .menu .callcen{
+	position: relative;
+	right: -30px;
+	top: 5px;
+}
+
+#footer .menu .info{
+	
+}
+
+
+#footer .menu .callcen h3 {
+color: black;
+margin-left: 20px;
+}
+
+#footer .menu .info img {
+	position: relative;
+	top: 10px;
+    float: left;
+}
+
+#footer .menu .info h3 {
+	float: left;
+	color: black;
+	margin-left: 20px;
+}
+
+/*    end footer    */
+
+
+
+@meta (){
+	
+}
